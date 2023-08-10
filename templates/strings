@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <title>my_website</title>
+    </head>
+    <body>
+        
+    <h1>Strings</h1>
+    <form action="/violin_bows" method="post">
+        <input autocomplete="off" autofocus name="name" placeholder="Instrument" type="text">
+            <select name="instrument">
+                <option disabled selected>Instrument</option>
+                
+                    <option value="Violin">Violin</option>
+                
+                    <option value="Viola">Viola</option>
+                
+                    <option value="Cello">Cello</option>
+                
+                    <option value="Gamba">Gamba</option>
+                
+            </select>
+        <button type="submit">enter</button>
+    </form>
+
+    </body>
+
+</html>
